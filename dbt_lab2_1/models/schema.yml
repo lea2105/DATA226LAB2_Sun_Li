@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: lab2_stock_data
+    description: "Stock data model"
+    columns:
+      - name: symbol
+        description: "Stock symbol"
+      - name: date
+        description: "Date of stock data"
+      - name: close
+        description: "Closing price"
